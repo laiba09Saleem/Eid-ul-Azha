@@ -2,7 +2,7 @@
 Eid ul Azha Mubarak Website 🌙
 A beautiful, responsive, and animated website to celebrate Eid ul Azha with a sophisticated black and white theme.
 
-Eid ul Azha Website Preview (Eid Mubarak.png)
+Eid ul Azha Website Preview (Eid-Mubarak.png)
 
 
 ## Live Demo 🔗
