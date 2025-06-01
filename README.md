@@ -2,6 +2,10 @@
 
 A beautiful, responsive, and animated website to celebrate Eid ul Azha with a sophisticated black and white theme.
 
+## Live Demo 🔗
+
+[View Live Demo](https://laiba09saleem.github.io/Eid-ul-Azha/)
+
 ![Eid ul Azha Website Preview](Eid-Mubarak.png)
 
 ## Features ✨
@@ -84,10 +88,6 @@ css
 javascript
    const eidDate = new Date(now.getFullYear(), 5, 17); // June 17th example
 
-
-## Live Demo 🔗
-
-[View Live Demo](https://laiba09saleem.github.io/Eid-ul-Azha/)
 
 ## Contributing 🤝
 
