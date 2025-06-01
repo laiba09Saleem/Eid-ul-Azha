@@ -1,14 +1,8 @@
+# Eid ul Azha Mubarak Website 🌙
 
-Eid ul Azha Mubarak Website 🌙
 A beautiful, responsive, and animated website to celebrate Eid ul Azha with a sophisticated black and white theme.
 
-Eid ul Azha Website Preview (Eid-Mubarak.png)
-
-
-## Live Demo 🔗
-
-[View Live Demo](https://laiba09saleem.github.io/Eid-ul-Azha/)
-
+![Eid ul Azha Website Preview](Eid-Mubarak.png)
 
 ## Features ✨
 
@@ -37,7 +31,6 @@ Eid ul Azha Website Preview (Eid-Mubarak.png)
 ## Installation 🛠️
 
 1. Clone the repository:
-
 git clone https://github.com/laiba09Saleem/Eid-ul-Azha.git
 
 
@@ -54,7 +47,6 @@ start index.html # On Windows
 
 ## File Structure 📂
 
-
 /eid-ul-azha-website/
 ├── index.html
 ├── css/
@@ -64,7 +56,6 @@ start index.html # On Windows
 ├── images/
 │   └── (background images)
 └── README.md
-
 
 ## How to Customize 🎨
 
@@ -78,7 +69,7 @@ start index.html # On Windows
 
 3. **Change Colors**:
    - Modify CSS variables in `style.css`
-  css
+css
    :root {
        --primary-color: #ffffff;
        --secondary-color: #000000;
@@ -87,11 +78,16 @@ start index.html # On Windows
        --bg-color: #000000;
    }
 
+
 4. **Update Countdown**:
    - Set the correct Eid date in `script.js`
-  javascript
+javascript
    const eidDate = new Date(now.getFullYear(), 5, 17); // June 17th example
-  
+
+
+## Live Demo 🔗
+
+[View Live Demo](https://laiba09saleem.github.io/Eid-ul-Azha/)
 
 ## Contributing 🤝
 
@@ -103,9 +99,6 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License 📜
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact 📧
 
