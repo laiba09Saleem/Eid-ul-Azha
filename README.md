@@ -6,7 +6,7 @@ A beautiful, responsive, and animated website to celebrate Eid ul Azha with a so
 
 [View Live Demo](https://laiba09saleem.github.io/Eid-ul-Azha/)
 
-![Eid ul Azha Website Preview](Eid Mubarak.png)
+![Eid ul Azha Website Preview] Eid Mubarak.png 
 
 ## Features ✨
 
