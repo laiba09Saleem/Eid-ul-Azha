@@ -11,6 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set current year in footer
     document.getElementById('year').textContent = new Date().getFullYear();
 
+    // Add current date
+    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', options);
+
     // Page navigation
     const navLinks = document.querySelectorAll('.nav-link');
     const pages = document.querySelectorAll('.page');
@@ -37,11 +41,13 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Countdown timer (set to next Eid ul Azha - example date)
+    // Countdown timer (set to Eid ul Azha on 7th June)
     function updateCountdown() {
         const now = new Date();
-        // Example date - replace with actual Eid ul Azha date
-        const eidDate = new Date(now.getFullYear(), 5, 17); // June 17th (example)
+        // Set Eid date to June 7th of current year
+        const eidDate = new Date(now.getFullYear(), 5, 7); // June 7th (month is 0-indexed, so 5 = June)
+        
+        // If Eid has already passed this year, set to next year
         if (now > eidDate) {
             eidDate.setFullYear(now.getFullYear() + 1);
         }
@@ -138,7 +144,3 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', animateOnScroll);
     animateOnScroll(); // Run once on load
 });
-
- // Add current date
-    const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-    document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', options);
