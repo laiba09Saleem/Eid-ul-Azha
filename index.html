@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid ul Azha Mubarak</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="moon"></div>
+        <div class="text">Loading...</div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container-fluid main-container">
+        <!-- Header Section -->
+        <header class="text-center py-5">
+            <div class="stars"></div>
+            <div class="twinkling"></div>
+            <h1 class="display-3 animated-title">Eid ul Azha Mubarak</h1>
+            <p class="lead mt-3">Blessed Eid to you and your family! 🌙✨</p>
+            <div class="moon-container">
+                <div class="moon"></div>
+                <div class="crescent"></div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" data-page="home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-page="about">About Eid</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-page="wishes">Eid Wishes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-page="gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-page="dua">Dua</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Content -->
+        <div class="page-content">
+            <!-- Home Page -->
+            <div class="page active" id="home-page">
+                <section class="py-5">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <h2 class="mb-4">Celebrating the Spirit of Sacrifice</h2>
+                                <p class="lead">Eid ul Azha, also known as the Festival of Sacrifice, is a time of joy, prayer, and sharing with family and friends.</p>
+                                <p>May this Eid bring you peace, happiness, and prosperity. Let us remember the spirit of sacrifice and sharing that this blessed occasion teaches us.</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mosque-animation"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="py-5 bg-dark">
+                    <div class="container text-center">
+                        <h3 class="mb-4">Eid ul Azha Countdown</h3>
+                        <div class="countdown-container">
+                            <div class="countdown-box">
+                                <div class="countdown-value" id="days">00</div>
+                                <div class="countdown-label">Days</div>
+                            </div>
+                            <div class="countdown-box">
+                                <div class="countdown-value" id="hours">00</div>
+                                <div class="countdown-label">Hours</div>
+                            </div>
+                            <div class="countdown-box">
+                                <div class="countdown-value" id="minutes">00</div>
+                                <div class="countdown-label">Minutes</div>
+                            </div>
+                            <div class="countdown-box">
+                                <div class="countdown-value" id="seconds">00</div>
+                                <div class="countdown-label">Seconds</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Prayer Times Section -->
+                <section class="py-5">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <div class="prayer-times" style="background: linear-gradient(135deg, #2c5364, #203a43, #0f2027); 
+                                    border-radius: 12px; 
+                                    padding: 1.5rem;
+                                    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+                                    font-family: 'Poppins', sans-serif;">
+                                    
+                                    <h5 style="color: #fff; 
+                                               font-size: 1.25rem; 
+                                               margin-bottom: 1.5rem; 
+                                               text-align: center;
+                                               position: relative;
+                                               padding-bottom: 0.5rem;
+                                               font-weight: 600;">
+                                        <span style="display: inline-block; padding: 0 1rem; background: rgba(255,255,255,0.1); border-radius: 20px;">
+                                            Today's Prayer Times
+                                        </span>
+                                    </h5>
+                                    
+                                    <ul style="list-style: none; 
+                                               padding: 0;
+                                               margin: 0;">
+                                        
+                                        <li style="display: flex; 
+                                                   justify-content: space-between;
+                                                   align-items: center;
+                                                   padding: 0.75rem 1rem;
+                                                   margin-bottom: 0.5rem;
+                                                   background: rgba(255,255,255,0.08);
+                                                   border-radius: 8px;
+                                                   transition: all 0.3s ease;">
+                                            <span style="font-weight: 500; color: #f8f9fa;">Fajr</span>
+                                            <span style="font-weight: 600; color: #ffd700;">4:30 AM</span>
+                                        </li>
+                                        
+                                        <li style="display: flex; 
+                                                   justify-content: space-between;
+                                                   align-items: center;
+                                                   padding: 0.75rem 1rem;
+                                                   margin-bottom: 0.5rem;
+                                                   background: rgba(255,255,255,0.08);
+                                                   border-radius: 8px;
+                                                   transition: all 0.3s ease;">
+                                            <span style="font-weight: 500; color: #f8f9fa;">Dhuhr</span>
+                                            <span style="font-weight: 600; color: #ffd700;">12:15 PM</span>
+                                        </li>
+                                        
+                                        <li style="display: flex; 
+                                                   justify-content: space-between;
+                                                   align-items: center;
+                                                   padding: 0.75rem 1rem;
+                                                   margin-bottom: 0.5rem;
+                                                   background: rgba(255,255,255,0.08);
+                                                   border-radius: 8px;
+                                                   transition: all 0.3s ease;">
+                                            <span style="font-weight: 500; color: #f8f9fa;">Asr</span>
+                                            <span style="font-weight: 600; color: #ffd700;">3:45 PM</span>
+                                        </li>
+                                        
+                                        <li style="display: flex; 
+                                                   justify-content: space-between;
+                                                   align-items: center;
+                                                   padding: 0.75rem 1rem;
+                                                   margin-bottom: 0.5rem;
+                                                   background: rgba(255,255,255,0.08);
+                                                   border-radius: 8px;
+                                                   transition: all 0.3s ease;">
+                                            <span style="font-weight: 500; color: #f8f9fa;">Maghrib</span>
+                                            <span style="font-weight: 600; color: #ffd700;">6:30 PM</span>
+                                        </li>
+                                        
+                                        <li style="display: flex; 
+                                                   justify-content: space-between;
+                                                   align-items: center;
+                                                   padding: 0.75rem 1rem;
+                                                   background: rgba(255,255,255,0.08);
+                                                   border-radius: 8px;
+                                                   transition: all 0.3s ease;">
+                                            <span style="font-weight: 500; color: #f8f9fa;">Isha</span>
+                                            <span style="font-weight: 600; color: #ffd700;">8:00 PM</span>
+                                        </li>
+                                    </ul>
+                                    
+                                    <div style="text-align: center; margin-top: 1.5rem;">
+                                        <small style="color: rgba(255,255,255,0.6); font-size: 0.75rem;">
+                                            Last updated: <span id="current-date" style="color: #fff;"></span>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- About Eid Page -->
+            <div class="page" id="about-page">
+                <section class="py-5">
+                    <div class="container">
+                        <h2 class="text-center mb-5">About Eid ul Azha</h2>
+                        <div class="row">
+                            <div class="col-lg-6 mb-4">
+                                <div class="card bg-transparent border-light">
+                                    <div class="card-body">
+                                        <h3 class="card-title">The Significance</h3>
+                                        <p class="card-text">Eid ul Azha commemorates the willingness of Prophet Ibrahim (AS) to sacrifice his son Ismail (AS) as an act of obedience to Allah's command. At the last moment, Allah replaced Ismail with a ram, which was to be slaughtered instead.</p>
+                                        <p>This event is mentioned in the Quran and teaches us the importance of submission to Allah's will.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mb-4">
+                                <div class="card bg-transparent border-light">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Traditions</h3>
+                                        <p class="card-text">On this day, Muslims around the world perform the following:</p>
+                                        <ul>
+                                            <li>Special Eid prayers in congregation</li>
+                                            <li>Sacrifice of an animal (Qurbani)</li>
+                                            <li>Distribution of meat to family, friends, and the needy</li>
+                                            <li>Wearing new clothes and visiting relatives</li>
+                                            <li>Exchanging gifts and greetings</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Wishes Page -->
+            <div class="page" id="wishes-page">
+                <section class="py-5">
+                    <div class="container">
+                        <h2 class="text-center mb-5">Eid ul Azha Wishes</h2>
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card wish-card">
+                                    <div class="card-body">
+                                        <div class="wish-icon">🌙</div>
+                                        <p class="card-text">May the divine blessings of Allah bring you hope, faith, and joy on Eid ul Azha and forever. Eid Mubarak!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card wish-card">
+                                    <div class="card-body">
+                                        <div class="wish-icon">🕌</div>
+                                        <p class="card-text">May Allah accept your sacrifices and bless you with happiness, peace, and prosperity. Eid Mubarak to you and your family!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card wish-card">
+                                    <div class="card-body">
+                                        <div class="wish-icon">🙏</div>
+                                        <p class="card-text">On this blessed occasion, may Allah fill your life with happiness, your heart with love, and your soul with spirituality. Eid Mubarak!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card wish-card">
+                                    <div class="card-body">
+                                        <div class="wish-icon">💝</div>
+                                        <p class="card-text">May the magic of this Eid bring lots of happiness in your life and may you celebrate it with all your close friends and family. Eid Mubarak!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card wish-card">
+                                    <div class="card-body">
+                                        <div class="wish-icon">🎁</div>
+                                        <p class="card-text">Wishing you and your family a very happy Eid ul Azha. May Allah accept your good deeds, forgive your sins and ease the suffering of all people around the globe.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card wish-card">
+                                    <div class="card-body">
+                                        <div class="wish-icon">✨</div>
+                                        <p class="card-text">May Allah shower His blessings upon you and your family, today, tomorrow, and always. Eid ul Azha Mubarak!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Gallery Page -->
+            <div class="page" id="gallery-page">
+                <section class="py-5">
+                    <div class="container">
+                        <h2 class="text-center mb-5">Eid Gallery</h2>
+                        <div class="row gallery-row">
+                            <div class="col-md-4 mb-4">
+                                <div class="gallery-item" style="height: 250px; overflow: hidden; position: relative;">
+                                    <img src="images/Eid Prayers.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+                                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s;">
+                                        <div class="gallery-text" style="color: white; font-size: 1.5rem;">Eid Prayers</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="gallery-item" style="height: 250px; overflow: hidden; position: relative;">
+                                    <img src="images/Family Gathering.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+                                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s;">
+                                        <div class="gallery-text" style="color: white; font-size: 1.5rem;">Family Gatherings</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="gallery-item" style="height: 250px; overflow: hidden; position: relative;">
+                                    <img src="images/Mosque Decoration.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+                                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s;">
+                                        <div class="gallery-text" style="color: white; font-size: 1.5rem;">Mosque Decorations</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="gallery-item" style="height: 250px; overflow: hidden; position: relative;">
+                                    <img src="images/Eid Feast.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+                                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s;">
+                                        <div class="gallery-text" style="color: white; font-size: 1.5rem;">Eid Feast</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="gallery-item" style="height: 250px; overflow: hidden; position: relative;">
+                                    <img src="images/Children Celebrating.avif" style="width: 100%; height: 100%; object-fit: cover;">
+                                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s;">
+                                        <div class="gallery-text" style="color: white; font-size: 1.5rem;">Children Celebrating</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="gallery-item" style="height: 250px; overflow: hidden; position: relative;">
+                                    <img src="images/Bakra Eid.png" style="width: 100%; height: 100%; object-fit: cover;">
+                                    <div class="gallery-overlay" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s;">
+                                        <div class="gallery-text" style="color: white; font-size: 1.5rem;">Animals</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Dua Page -->
+            <div class="page" id="dua-page">
+                <section class="py-5">
+                    <div class="container">
+                        <h2 class="text-center mb-5">Eid ul Azha Duas</h2>
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <div class="card bg-transparent border-light mb-4">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Dua for Eid Day</h3>
+                                        <p class="card-text arabic">اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَ مَا فِي هَذَا الْيَوْمِ، وَخَيْرَ مَا بَعْدَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذَا الْيَوْمِ، وَشَرِّ مَا بَعْدَهُ</p>
+                                        <p class="card-text">"O Allah, I ask You for the goodness of this day and the goodness of what follows it, and I seek refuge in You from the evil of this day and the evil of what follows it."</p>
+                                    </div>
+                                </div>
+                                <div class="card bg-transparent border-light mb-4">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Dua for Acceptance of Sacrifice</h3>
+                                        <p class="card-text arabic">إِنِّي وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَاوَاتِ وَالْأَرْضَ حَنِيفًا وَمَا أَنَا مِنَ الْمُشْرِكِينَ</p>
+                                        <p class="card-text">"Indeed, I have turned my face toward He who created the heavens and the earth, inclining toward truth, and I am not of those who associate others with Allah."</p>
+                                    </div>
+                                </div>
+                                <div class="card bg-transparent border-light mb-4">
+                                    <div class="card-body">
+                                        <h3 class="card-title">General Dua for Eid</h3>
+                                        <p class="card-text arabic">تَقَبَّلَ اللَّهُ مِنَّا وَمِنْكُمْ</p>
+                                        <p class="card-text">"May Allah accept (good deeds) from us and from you."</p>
+                                    </div>
+                                </div>
+                                <div class="text-center mt-5">
+                                    <button id="celebration-btn" class="btn btn-lg btn-outline-light">Start Eid Celebration! 🎉</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+
+        <!-- Footer -->
+        <footer class="text-center py-4">
+            <div class="container">
+                <p>Created with ❤️ for Eid ul Azha Mubarak</p>
+                <p>© <span id="year"></span> All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+    
+
+    <!-- Celebration Elements (hidden initially) -->
+    <div class="celebration-container">
+        <div class="firework"></div>
+        <div class="firework"></div>
+        <div class="firework"></div>
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+        <div class="confetti"></div>
+        <div class="eid-mubarak-text">Eid Mubarak!</div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    <script>
+        // Add current date for prayer times
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', options);
+        
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
